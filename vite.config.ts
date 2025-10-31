@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/bio-color-craft/', // Add this line
+  base: '/bio-color-craft/', // This is crucial!
   server: {
     host: "::",
     port: 8080,
